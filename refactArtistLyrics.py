@@ -55,13 +55,17 @@ def get_list_of_verses_in_lyrics(lyrics_lines_without_desc):
     verses = []
     for line in lyrics_lines_without_desc:
         line = remove_multiple_endline(line)
-        blank_between_verses = ""
-        if line == blank_between_verses:
+        # if there is no any letter in line
+        is_blank_line = not re.search('[a-zA-Z]', line)
+        if is_blank_line:
             if len(verse) > 4:
                 verses.append(verse)
             verse = []
         else:
             verse.append(line)
+    is_there_verse_left_to_add = len(verse) > 0
+    if is_there_verse_left_to_add:
+        verses.append(verse)
     return verses
 
 
@@ -118,7 +122,8 @@ def is_artist_verse(first_line_of_verse_lowercase, artist_name):
 def is_verse_header(first_line_of_verse_lowercase):
     return '[' in first_line_of_verse_lowercase \
            or '(' in first_line_of_verse_lowercase \
-           or 'verse' in first_line_of_verse_lowercase
+           or 'verse' in first_line_of_verse_lowercase \
+           or ':' in first_line_of_verse_lowercase
 
 
 def add_learning_tags_to_verse(verses):
@@ -132,23 +137,25 @@ def add_learning_tags_to_verse(verses):
 
         for i in range(1, len(verse)):
             verse_with_tags.append(verse[i] + "<end_line>")
+        verse_with_tags.append("<verse_end>")
         artist_verses_with_tags.append(verse_with_tags)
         verse_with_tags = []
 
     return artist_verses_with_tags
 
 
-def clear_artist_verses_of_background_voices_and_short_lines(artist_verses_with_tags):
+def clear_artist_verses_of_background_voices_and_short_lines(artist_verses):
     artist_cleaned_verses = []
     cleaned_verse = []
-    for verse in artist_verses_with_tags:
-        for i in range(1, len(verse) - 1):
+    for verse in artist_verses:
+        for i in range(0, len(verse)):
             current_verse_line = verse[i]
             # delete all words between {}, () and [] with brackets and empty characters that surrounds brackets
             current_verse_line = re.sub(" ?[\(\[\{].*?[\)\]\}] ?", "", current_verse_line)
 
             number_of_words_in_line = len(re.findall(r'\w+', current_verse_line))
-            if number_of_words_in_line > 2:
+            is_verse_tag = 'verse' in current_verse_line
+            if number_of_words_in_line > 2 or is_verse_tag:
                 cleaned_verse.append(current_verse_line)
 
         artist_cleaned_verses.append(cleaned_verse)
@@ -166,12 +173,23 @@ def make_text_lyrics_of_list_of_verses(artist_cleaned_verses):
     return filtered_lyrics_of_song
 
 
+def save_filtered_lyrics_to_destination(artist_lyrics_folder_path, artist_name, filtered_artist_lyrics_map):
+    artist_name_for_document_name = re.sub("[^0-9a-zA-Z]+", "_", artist_name)
+    for lyrics_file_name, lyrics_text in filtered_artist_lyrics_map.items():
+        is_there_any_text_left_in_lyrics = lyrics_text != ""
+        if is_there_any_text_left_in_lyrics:
+            with open(artist_lyrics_folder_path + artist_name_for_document_name + '/filtered/' +
+                      lyrics_file_name, 'w') as output_stream:
+                output_stream.write(lyrics_text)
+
+
 '''
 MAIN
 '''
+artist_lyrics_folder_path = "./data/rap_lyrics_links/"
+artist_name = "Notorious"
 
-artist_lyrics_folder_path = "./data/rap_lyrics_links/Fabolous/"
-artist_lyrics_map = load_lyrics_into_map(artist_lyrics_folder_path)
-artist_name = "Fabolous"
-
+artist_lyrics_map = load_lyrics_into_map(artist_lyrics_folder_path + "Notorious_B_I_G" + '/')
 filtered_artist_lyrics_map = filter_artist_verses_and_return_map(artist_lyrics_map, artist_name)
+
+save_filtered_lyrics_to_destination(artist_lyrics_folder_path, "Notorious_B_I_G", filtered_artist_lyrics_map)

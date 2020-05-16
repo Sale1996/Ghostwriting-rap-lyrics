@@ -1,0 +1,16 @@
+<verse_start>
+This thing on?<end_line>
+Where'd everybody go?<end_line>
+Guess who's back?<end_line>
+Back again<end_line>
+Ken is back<end_line>
+Tell some men<end_line>
+Rub my back<end_line>
+Rub my back<end_line>
+Rub my back<end_line>
+Rub my back<end_line>
+<verse_end>
+
+<verse_start>
+<verse_end>
+

@@ -1,0 +1,63 @@
+<verse_start>
+"Shady!  That's me!" -> Eminem<end_line>
+"High and Mighty Trilogy" -> Mr. Eon<end_line>
+"Back with the flyest material" -> Erick Sermon<end_line>
+"Shady... Sh... Shady!" -> Eminem<end_line>
+"That that... that's me!" -> Eminem<end_line>
+"High.. High and.. Mighty Trilogy" -> Mr. Eon<end_line>
+"Back with the..." -> Erick Sermon<end_line>
+	"Funky... beats"<end_line>
+<verse_end>
+
+<verse_start>
+My nine is liftin ya, six feet when I spray rounds<end_line>
+Hit you with 12 shots in mid-air and four more on the way down<end_line>
+as eight strays graze through a kid's hair on the playground<end_line>
+You lay down on a stretcher<end_line>
+No pun intended, just hop out of your whip<end_line>
+and leave it un-attended before I whip out this gun and end it<end_line>
+Unless you want it dented with bullet holes any minute<end_line>
+Cause I can leave your Infinite full of those even if someone's in it<end_line>
+Snatch the airbag, hit the corner and park it<end_line>
+Corner the market, I got her tied up in a chair and gagged<end_line>
+Bitches get smacked and grabbed by the hair and dragged<end_line>
+like cavewomen, while I'm gravediggin with Marilyn Man'<end_line>
+<verse_end>
+
+<verse_start>
+If you got a bowl of hash better cash it<end_line>
+You got a satchel, flash it, I'ma take your last hit<end_line>
+	And if you spittin wack shit on the microphone<end_line>
+	I'ma snatch it outta your hand so fast I'ma detach it<end_line>
+So if you got a bowl of hash, you better cash it<end_line>
+You got a satchel, flash it, I'ma take your last hit<end_line>
+	I'm flabbergasted off two tabs of acid<end_line>
+	Threw my baby's mother in the hatchback and latched it<end_line>
+<verse_end>
+
+<verse_start>
+I'm e-mailin you, at the wrong website<end_line>
+and mispellin you, prank you and put the fear of hell in you<end_line>
+Escaped Bellevue, stuffed the nurse in a purse<end_line>
+Disperse like I added too many words in a verse<end_line>
+Slim Shady, a perverted version of birth<end_line>
+Drivin off, leaving a murdered virgin at church<end_line>
+The first person who searchin the earth for the motherfucker <end_line>
+that pulled the plug when they shoulda alerted the surgeon first<end_line>
+Get thrown curves, and hit with your own words<end_line>
+Leave me alone bitch!  I get on my own nerves<end_line>
+And if I don't got two balls and a middle finger to throw up<end_line>
+I'm takin off both shoes and stickin each middle toe up<end_line>
+<verse_end>
+
+<verse_start>
+"Slim Shady", "naughty rotten rhymer"<end_line>
+	"Mr. Eon",  "illest rhyme dropper"<end_line>
+"Slim Shady", "naughty rotten rhymer"<end_line>
+	"Mr. Eon",  "illest rhyme dropper"<end_line>
+"Slim Shady"<end_line>
+"N....nau..naughty...ro..ro..rotten rhyme....rhyme..rhy..rhymer"<end_line>
+	"Mr. Eon"<end_line>
+	"Illest rhyme drop...drop..drop..dro..dro..rhyme dropper"<end_line>
+<verse_end>
+

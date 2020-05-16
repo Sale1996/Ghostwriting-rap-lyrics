@@ -1,0 +1,7 @@
+<verse_start>
+01. Kuniva, 02. Proof, 03. Kon Artis, 04. Swift<end_line>
+05. Kuniva, 06. Proof, 07. Kon Artis, 08. Swift<end_line>
+09. Kuniva, 10. Proof, 11. Kon Artis, 12. Bizarre<end_line>
+13. Kuniva, 14. Proof, 15. Kon Artis, 16. Swift<end_line>
+<verse_end>
+
