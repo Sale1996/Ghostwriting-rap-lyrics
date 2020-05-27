@@ -1,0 +1,54 @@
+<verse_start>
+IH1F AY1 WAA1Z WAY1T <end_line>
+WAH1T IH1F HHIY1 WAA1Z WAY1T ? <end_line>
+WAH1T IH1F HHIY1 WAA1Z WAY1T ? <end_line>
+WAH1T IH1F HHIY1 WAA1Z WAY1T , WAY1T ,  WAY1T , WAY1T , HHIY1 WAA1Z WAY1T <end_line>
+WAH1T IH1F HHIY1 WAA1Z WAY1T ? <end_line>
+WAH1T IH1F HHIY1 WAA1Z <end_line>
+WAY1T , WAY1T , WAY1T , WAY1T , WAY1T , WAY1T , WAY1T , WAY1T , WAY1T , WAY1T ?  <end_line>
+<verse_end>
+ 
+<verse_start>
+WAH1T IH1F HHIY1 WAA1Z WAY1T ? <end_line>
+WAH1T IH1F HHIY1 WAA1Z WAY1T ? <end_line>
+WAH1T - IH1F - HHIY1 - WAA1Z - WAY1T ? <end_line>
+WAH1T IH1F YUW1 WER0 WAY1T ? <end_line>
+WAH1T IH1F HHIY1 WAA1Z <end_line>
+WAY1T , WAY1T , WAY1T , WAY1T , WAY1T <end_line>
+WAY1T , WAY1T , WAY1T , WAY1T , WAY1T ? <end_line>
+<verse_end>
+ 
+<verse_start>
+WAH1T IH1F HHIY1 WAA1Z WAY1T ? <end_line>
+WAH1T IH1F HHIY1 WAA1Z WAY1T ? <end_line>
+WAH1T IH1F HHIY1 WAA1Z WAY1T , WAY1T , WAY1T , WAY1T , HHIY1 WAA1Z WAY1T <end_line>
+WAH1T IH1F HHIY1 WAA1Z WAY1T ? <end_line>
+WAH1T IH1F HHIY1 WAA1Z <end_line>
+WAY1T , WAY1T , WAY1T , WAY1T , WAY1T , WAY1T , WAY1T , WAY1T , WAY1T , WAY1T ?  <end_line>
+<verse_end>
+ 
+<verse_start>
+WAH1T IH1F YUW1 WER0 WAY1T ? <end_line>
+WAH1T IH1F HHIY1 WAA1Z WAY1T ? <end_line>
+WAH1T - IH1F - HHIY1 - WAA1Z - WAY1T ? <end_line>
+WAH1T IH1F HHIY1 WAA1Z WAY1T ? <end_line>
+WAH1T IH1F HHIY1 WAA1Z <end_line>
+WAY1T , WAY1T , WAY1T , WAY1T , WAY1T , WAY1T , WAY1T , WAY1T , WAY1T , WAY1T ? <end_line>
+IH1F HHIY1 WAA1Z WAY1T ? <end_line>
+WAH1T IH1F HHIY1 WAA1Z WAY1T ? <end_line>
+WAH1T IH1F HHIY1 WAA1Z WAY1T <end_line>
+WAH1T - IH1F - HHIY1 - WAA1Z - WAY1T ? <end_line>
+WAY1T , WAY1T , WAY1T , WAY1T , WAY1T , WAY1T , <end_line>
+WAY1T , WAY1T , WAY1T , WAY1T ? <end_line>
+WAH1T IH1F HHIY1 WAA1Z WAY1T ? <end_line>
+WAH1T IH1F HHIY1 WAA1Z WAY1T ? <end_line>
+WAY1T , WAY1T , WAY1T , WAY1T , WAY1T ? <end_line>
+WAH1T IH1F HHIY1 WAA1Z WAY1T <end_line>
+WAY1T , WAY1T , WAY1T , WAY1T , WAY1T , WAY1T , WAY1T , WAY1T ? <end_line>
+<verse_end>
+ 
+<verse_start>
+YOW1 , WAH1T IH1F AY1 WAA1Z WAY1T ?  AH1 .. <end_line>
+<verse_end>
+ 
+ 

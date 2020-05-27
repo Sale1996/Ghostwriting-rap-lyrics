@@ -111,8 +111,8 @@ parser = {
     'batch_size': 100,
     'max_len': 20,  # max length of grapheme/phoneme sequences
     'beam_size': 3,  # size of beam for beam-search
-    'd_embed': 500,  # embedding dimension
-    'd_hidden': 500,  # hidden dimension
+    'd_embed': 300,  # embedding dimension changed to 400
+    'd_hidden': 500,  # hidden dimension changed to 400
     'attention': True,  # use attention or not
     'log_every': 100,  # number of iterations to log and validate training
     'lr': 0.007,  # initial learning rate
