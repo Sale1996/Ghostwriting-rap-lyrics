@@ -108,14 +108,14 @@ def show(batch, model):
 parser = {
     'data_path': '../data/cmudict/',
     'epochs': 15,
-    'batch_size': 100,
-    'max_len': 20,  # max length of grapheme/phoneme sequences
+    'batch_size': 100, # sa 100 na 256, pa na 64, pa na 1
+    'max_len': 20,  # max length of grapheme/phoneme sequences, sa 20 na 50
     'beam_size': 3,  # size of beam for beam-search
-    'd_embed': 300,  # embedding dimension changed to 400
-    'd_hidden': 500,  # hidden dimension changed to 400
+    'd_embed': 500,  # embedding dimension changed sa 300 na 512
+    'd_hidden': 500,  # hidden dimension changed sa 500 na 512
     'attention': True,  # use attention or not
     'log_every': 100,  # number of iterations to log and validate training
-    'lr': 0.007,  # initial learning rate
+    'lr': 0.007,  # initial learning rate , sa 0.007 na 0.0001
     'lr_decay': 0.5,  # decay lr when not observing improvement in val_loss
     'lr_min': 1e-5,  # stop when lr is too low
     'n_bad_loss': 5,  # number of bad val_loss before decaying
@@ -123,6 +123,7 @@ parser = {
     'cuda': False,  # using gpu or not
     'seed': 5,  # initial seed
     'intermediate_path': '../intermediate/g2p/',  # path to save models
+    # 'input_keep_prob': 0.8
 }
 args = argparse.Namespace(**parser)
 
@@ -169,15 +170,15 @@ if config.cuda:
     criterion.cuda()
 optimizer = optim.Adagrad(model.parameters(), lr=config.lr)  # use Adagrad
 
-# if 1 == 1:  # change to True to train
-#     iteration = n_total = train_loss = n_bad_loss = 0
-#     stop = False
-#     best_val_loss = 10
-#     init = time.time()
-#     for epoch in range(1, config.epochs+1):
-#         train(config, train_iter, model, criterion, optimizer, epoch)
-#         if stop:
-#             break
+if 1 == 1:  # change to True to train
+    iteration = n_total = train_loss = n_bad_loss = 0
+    stop = False
+    best_val_loss = 10
+    init = time.time()
+    for epoch in range(1, config.epochs+1):
+        train(config, train_iter, model, criterion, optimizer, epoch)
+        if stop:
+            break
 
 
 model.load_state_dict(torch.load(config.best_model))
@@ -185,5 +186,5 @@ test(test_iter, model, criterion)
 test_iter.init_epoch()
 for i, batch in enumerate(test_iter):
     show(batch, model)
-    # if i == 50:
-    #     break
+    if i == 50:
+        break

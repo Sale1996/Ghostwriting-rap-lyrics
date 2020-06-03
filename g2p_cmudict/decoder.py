@@ -3,17 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from g2p_cmudict.attention import Attention
 
-# import argparse
-# import os
-# import time
-#
-# import torch
-# import torch.nn as nn
-# import torch.nn.functional as F
-# from torch.autograd import Variable
-# import torch.optim as optim
-# from torch.nn.utils import clip_grad_norm
-# import torchtext.data as data
+
 class Decoder(nn.Module):
 
     def __init__(self, vocab_size, d_embed, d_hidden):
