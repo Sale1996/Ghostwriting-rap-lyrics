@@ -120,9 +120,9 @@ def load_list(root_path, author_name):
 MAIN
 '''
 artist_name = "Jay_Z"
-artist_filtered_lyrics_folder_path = "./data/rap_lyrics_links/" + artist_name + '/filtered/'
+artist_filtered_lyrics_folder_path = "../data/rap_lyrics_links/" + artist_name + '/filtered/'
 
-artist_form_lyrics_folder_path = "./data/rap_lyrics_links/"
+artist_form_lyrics_folder_path = "../data/rap_lyrics_links/"
 author_word_to_phonetic_form_dictionry = {}
 author_word_list = []
 

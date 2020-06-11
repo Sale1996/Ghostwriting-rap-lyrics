@@ -122,7 +122,7 @@ parser = {
     'clip': 2.3,  # clip gradient, to avoid exploding gradient
     'cuda': False,  # using gpu or not
     'seed': 5,  # initial seed
-    'intermediate_path': '../intermediate/g2p/',  # path to save models
+    'intermediate_path': './models/',  # path to save models
     # 'input_keep_prob': 0.8
 }
 args = argparse.Namespace(**parser)

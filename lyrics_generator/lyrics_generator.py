@@ -101,9 +101,9 @@ def sample(preds, temperature=1.0):
 '''
 MAIN
 '''
-artist_form_lyrics_folder_path = "./data/rap_lyrics_links/"
+artist_form_lyrics_folder_path = "../data/rap_lyrics_links/"
 artist_name = "Eminem"
-save_dir = './words_vocabulary_files/'
+save_dir = './words_vocabulary_files_and_models/'
 vocab_file = os.path.join(save_dir, artist_name + "_words_vocab.pkl")
 sequence_length = 6  # from 30 to 8
 sequence_step = 3  # from 1 to 3

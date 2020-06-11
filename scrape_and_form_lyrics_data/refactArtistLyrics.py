@@ -186,7 +186,7 @@ def save_filtered_lyrics_to_destination(artist_lyrics_folder_path, artist_name, 
 '''
 MAIN
 '''
-artist_lyrics_folder_path = "./data/rap_lyrics_links/"
+artist_lyrics_folder_path = "../data/rap_lyrics_links/"
 artist_name = "Notorious"
 
 artist_lyrics_map = load_lyrics_into_map(artist_lyrics_folder_path + "Notorious_B_I_G" + '/')

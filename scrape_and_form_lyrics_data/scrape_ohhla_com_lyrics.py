@@ -94,6 +94,6 @@ for author in ohhla_author_to_list_of_song_url_map:
 
         document_author_name = re.sub("[^0-9a-zA-Z]+", "_", author)
         song_name = re.sub("[^0-9a-zA-Z]+", "_", str(one_author_song[0]))
-        with open('./data/rap_lyrics_links/' + document_author_name + '/' +
+        with open('../data/rap_lyrics_links/' + document_author_name + '/' +
                   song_name + '.txt', 'w') as output_stream:
             output_stream.write(text_of_song)
